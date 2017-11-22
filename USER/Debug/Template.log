@@ -1,0 +1,1744 @@
+﻿生成启动时间为 2017/4/17 9:47:14。
+     1>项目“D:\PrivateDocuments\毕业设计程序\节点2（数字量）\USER\Template.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\USER /I..\CORE /I..\STM32F10x_FWLib\inc /I..\SYSTEM\delay /I..\SYSTEM\sys /I..\SYSTEM\usart /I..\Hardware /IE:\KeilForArm\ARM\RV31\INC /ZI /nologo /W3 /WX- /Od /Oy- /D STM32F10X_HD /D USE_STDPERIPH_DRIVER /D _VC80_UPGRADE=0x0600 /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c stm32f10x_it.c system_stm32f10x.c modbus.c ..\CORE\core_cm3.c ..\STM32F10x_FWLib\src\misc.c ..\STM32F10x_FWLib\src\stm32f10x_adc.c ..\STM32F10x_FWLib\src\stm32f10x_bkp.c ..\STM32F10x_FWLib\src\stm32f10x_can.c ..\STM32F10x_FWLib\src\stm32f10x_cec.c ..\STM32F10x_FWLib\src\stm32f10x_crc.c ..\STM32F10x_FWLib\src\stm32f10x_dac.c ..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c ..\STM32F10x_FWLib\src\stm32f10x_dma.c ..\STM32F10x_FWLib\src\stm32f10x_exti.c ..\STM32F10x_FWLib\src\stm32f10x_flash.c ..\STM32F10x_FWLib\src\stm32f10x_fsmc.c ..\STM32F10x_FWLib\src\stm32f10x_gpio.c ..\STM32F10x_FWLib\src\stm32f10x_i2c.c ..\STM32F10x_FWLib\src\stm32f10x_iwdg.c ..\STM32F10x_FWLib\src\stm32f10x_pwr.c ..\STM32F10x_FWLib\src\stm32f10x_rcc.c ..\STM32F10x_FWLib\src\stm32f10x_rtc.c ..\STM32F10x_FWLib\src\stm32f10x_sdio.c ..\STM32F10x_FWLib\src\stm32f10x_spi.c ..\STM32F10x_FWLib\src\stm32f10x_tim.c ..\STM32F10x_FWLib\src\stm32f10x_usart.c ..\STM32F10x_FWLib\src\stm32f10x_wwdg.c ..\SYSTEM\delay\delay.c ..\SYSTEM\sys\sys.c ..\Hardware\myusart.c ..\Hardware\mytim2.c "..\Hardware\sensor .c" ..\Hardware\relays.c
+         relays.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         sensor .c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         mytim2.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         myusart.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\hardware\myusart.c(94): warning C4244: “=”: 从“uint16_t”转换到“unsigned char”，可能丢失数据
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\hardware\myusart.c(98): warning C4244: “=”: 从“uint16_t”转换到“unsigned char”，可能丢失数据
+         sys.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         delay.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_wwdg.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_usart.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_tim.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_spi.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_sdio.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_rtc.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_rcc.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_pwr.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\stm32f10x_fwlib\src\stm32f10x_pwr.c(219): warning C4013: “__WFI”未定义；假设外部返回 int
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\stm32f10x_fwlib\src\stm32f10x_pwr.c(224): warning C4013: “__WFE”未定义；假设外部返回 int
+         stm32f10x_iwdg.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_i2c.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_gpio.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_fsmc.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_flash.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_exti.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         正在生成代码...
+         正在编译...
+         stm32f10x_dma.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_dbgmcu.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_dac.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_crc.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_cec.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_can.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_bkp.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_adc.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         misc.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         core_cm3.c
+         modbus.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\modbus.c(133): error C2065: “Reg_Op”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\modbus.c(134): error C2065: “Reg_L1”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\modbus.c(135): error C2065: “Reg_L2”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\modbus.c(136): error C2065: “Reg_Fire”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\modbus.c(137): error C2065: “Reg_Smoke”: 未声明的标识符
+         system_stm32f10x.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         stm32f10x_it.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+         main.c
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1468): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2085: “NVIC_SetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1469): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1489): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2085: “NVIC_GetPriorityGrouping”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1502): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2085: “NVIC_EnableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1503): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1515): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2085: “NVIC_DisableIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1516): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1529): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2085: “NVIC_GetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1530): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1542): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2085: “NVIC_SetPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1543): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1555): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2085: “NVIC_ClearPendingIRQ”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1556): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1569): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2085: “NVIC_GetActive”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1570): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1586): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2085: “NVIC_SetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1609): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2085: “NVIC_GetPriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1610): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1634): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2085: “NVIC_EncodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1635): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1665): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2085: “NVIC_DecodePriority”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1666): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1694): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2085: “SysTick_Config”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1695): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1719): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2085: “NVIC_SystemReset”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1720): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1756): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2085: “ITM_SendChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1757): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2085: “ITM_ReceiveChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1778): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2054: 在“__INLINE”之后应输入“(”
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2085: “ITM_CheckChar”: 不在形参表中
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\core\core_cm3.h(1798): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\main.c(44): error C2065: “Reg_Smoke”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\main.c(45): error C2065: “Reg_Fire”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\main.c(48): error C2065: “Reg_L1”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\main.c(49): error C2065: “Reg_L2”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\main.c(95): error C2065: “Reg_L1”: 未声明的标识符
+     1>d:\privatedocuments\毕业设计程序\节点2（数字量）\user\main.c(103): error C2065: “Reg_L2”: 未声明的标识符
+         正在生成代码...
+     1>已完成生成项目“D:\PrivateDocuments\毕业设计程序\节点2（数字量）\USER\Template.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.93
